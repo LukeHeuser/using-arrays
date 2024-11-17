@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
@@ -59,6 +60,13 @@ public class Main {
         } else {
             System.out.println("Arrays are not equal");
         }
+
+        int[] nextIntArray = {1,2,3,4,5};
+        System.out.println(nextIntArray.length);
+
+        Scanner scanner = new Scanner(System.in);
+
+
 
     }
 
